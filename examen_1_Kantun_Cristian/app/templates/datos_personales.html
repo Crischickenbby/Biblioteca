@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  {% extends 'base.html' %}
+
+  {% block title %}Datos Personales{% endblock %}
+
+  {% block content %}
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../static/img/hacker.avif" class="card-img-top" alt="CERTIFICADO 1">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h2>Datos Personales</h2>
+              <p><strong>Nombre:</strong> Cristian Leonardo Kantun Ramirez</p>
+              <p><strong>Edad:</strong> 19 años</p>
+              <p><strong>Carrera:</strong> Ingenieria en Sistemas Computacionales</p>
+              <p><strong>Universidad:</strong> Instituto Tecnologico Superior de Progreso</p>
+              <p><strong>Especialidad:</strong> CiberSeguridad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agrega más información personal según sea necesario -->
+    {% endblock %}
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+{% extends 'base.html' %}
+
+{% block title %}Certificados{% endblock %}
+
+{% block content %}
+  <h2>Certificados</h2>
+  <h3>En este apartado están mis certificados que por el momento he podido tener</h3>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../static/img/certificado1.jpeg" class="card-img-top" alt="CERTIFICADO 1">
+          <div class="card-body">
+            <h5 class="card-title">Certificado de GOOGLE</h5>
+            <p class="card-text">Este es un certificado que me gusta mucho porque fué el primer certificado que tuve y es de GOOGLE.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../static/img/certificado2.jpeg" class="card-img-top" alt="CERTIFICADO 2">
+          <div class="card-body">
+            <h5 class="card-title">Certificado de Fundamentos de CiberSeguridad I</h5>
+            <p class="card-text">Este certificado fue el segundo que tuve ya que lo pude obtener gracias a la universidad y me gustó mucho poder terminarlo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../static/img/certificado3.jpeg" class="card-img-top" alt="CERTIFICADO 3">
+          <div class="card-body">
+            <h5 class="card-title">Certificado de Fundamentos de CiberSeguridad II</h5>
+            <p class="card-text">Esté certificado me lo dieron luego de terminar el segundo ya que hice los dos cursos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+{% endblock %}
+
+</body>
+</html>
+
+
+
